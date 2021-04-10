@@ -470,7 +470,7 @@ function create() {
   for (let k = 1; k < rows_per_globe; k++) {
     let ang = rows_radians * k;
     let point_x = 0.0;
-    let point_y = 300.0;
+    let point_y = 200.0;
     let y_depth = point_x * Math.cos(ang) - point_y * Math.sin(ang);
     let z_depth = point_x * Math.sin(ang) + point_y * Math.cos(ang);
     // let amplitude_y = Math.sin(rows_radians * k) * 300.0
@@ -490,7 +490,8 @@ function create() {
 }
 function update() {
   let svg = _d.select("#svgcontainer").html("").append("svg");
-  const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
+  let vw = _d.select("#svgcontainer").node().getBoundingClientRect().width;
+  // const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
   const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
   const center_x = vw / 2.0, center_y = vh / 2.0;
   for (let point of points) {
@@ -515,7 +516,10 @@ function update() {
     x = newx;
     y = newy;
     z = newz;
-    svg.append("circle").attr("cx", x + center_x).attr("cy", y + center_y).attr("r", (z + 350.0) / 30.0).attr("fill", "hsl(" + point.hue + ", 70%, 63%)").attr("fill-opacity", "0.50");
+    z = (z + 180.0) / 30.0;
+    if (z > 0.0) {
+      svg.append("circle").attr("cx", x + center_x).attr("cy", y + center_y).attr("r", z).attr("fill", "hsl(" + point.hue + ", 70%, 63%)").attr("fill-opacity", "0.50");
+    }
   }
   rotation_x += rotation_xadd;
   rotation_y += rotation_yadd;
@@ -16499,6 +16503,6 @@ var define;
   });
 });
 
-},{"d3-dispatch":"6ygE0","d3-drag":"5x5QZ","d3-interpolate":"6eByj","d3-selection":"1RFAz","d3-transition":"ee4oY"}]},["6S38e","3syrK"], "3syrK", "parcelRequired986")
+},{"d3-dispatch":"6ygE0","d3-drag":"5x5QZ","d3-interpolate":"6eByj","d3-selection":"1RFAz","d3-transition":"ee4oY"}]},["6S38e","3syrK"], "3syrK", "parcelRequire39d6")
 
 //# sourceMappingURL=index.c99d113c.js.map
