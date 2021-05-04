@@ -6,3 +6,4 @@ View here [https://chrisguest75.github.io/pages_example/](https://chrisguest75.g
 ## Index
 [index.html](https://chrisguest75.github.io/pages_example/index.html)  
 [stars.html](https://chrisguest75.github.io/pages_example/stars.html)  
+[waves.html](https://chrisguest75.github.io/pages_example/waves.html)  
