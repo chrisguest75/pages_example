@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on My New Hugo Site</title>
-    <link>http://example.org/tags/</link>
-    <description>Recent content in Tags on My New Hugo Site</description>
+    <title>Tags on Blog</title>
+    <link>https://chrisguest75.github.io/pages_example/tags/</link>
+    <description>Recent content in Tags on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 31 Oct 2021 20:11:05 +0000</lastBuildDate><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 Oct 2021 20:11:05 +0000</lastBuildDate><atom:link href="https://chrisguest75.github.io/pages_example/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>code</title>
-      <link>http://example.org/tags/code/</link>
+      <link>https://chrisguest75.github.io/pages_example/tags/code/</link>
       <pubDate>Sun, 31 Oct 2021 20:11:05 +0000</pubDate>
       
-      <guid>http://example.org/tags/code/</guid>
+      <guid>https://chrisguest75.github.io/pages_example/tags/code/</guid>
       <description></description>
     </item>
     
     <item>
       <title>demo</title>
-      <link>http://example.org/tags/demo/</link>
+      <link>https://chrisguest75.github.io/pages_example/tags/demo/</link>
       <pubDate>Sun, 31 Oct 2021 20:11:05 +0000</pubDate>
       
-      <guid>http://example.org/tags/demo/</guid>
+      <guid>https://chrisguest75.github.io/pages_example/tags/demo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>blog</title>
-      <link>http://example.org/tags/blog/</link>
+      <link>https://chrisguest75.github.io/pages_example/tags/blog/</link>
       <pubDate>Sun, 31 Oct 2021 13:24:31 +0000</pubDate>
       
-      <guid>http://example.org/tags/blog/</guid>
+      <guid>https://chrisguest75.github.io/pages_example/tags/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>first</title>
-      <link>http://example.org/tags/first/</link>
+      <link>https://chrisguest75.github.io/pages_example/tags/first/</link>
       <pubDate>Sun, 31 Oct 2021 13:24:31 +0000</pubDate>
       
-      <guid>http://example.org/tags/first/</guid>
+      <guid>https://chrisguest75.github.io/pages_example/tags/first/</guid>
       <description></description>
     </item>
     
     <item>
       <title>info</title>
-      <link>http://example.org/tags/info/</link>
+      <link>https://chrisguest75.github.io/pages_example/tags/info/</link>
       <pubDate>Sun, 31 Oct 2021 13:24:31 +0000</pubDate>
       
-      <guid>http://example.org/tags/info/</guid>
+      <guid>https://chrisguest75.github.io/pages_example/tags/info/</guid>
       <description></description>
     </item>
     
