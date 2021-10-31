@@ -5,6 +5,8 @@ View here [https://chrisguest75.github.io/pages_example/](https://chrisguest75.g
 
 
 ```sh
-ls | grep -v '' | xargs rm -rf
+cd ./pages_example
+rm -rf *   
 cp -R ../hugo_examples/quickstart/public/* . 
+
 ```
