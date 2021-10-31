@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Blog</title>
-    <link>https://chrisguest75.github.io/pages_example/categories/</link>
+    <link>https://blog.chrisguest.dev/categories/</link>
     <description>Recent content in Categories on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://chrisguest75.github.io/pages_example/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://blog.chrisguest.dev/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

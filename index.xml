@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog</title>
-    <link>https://chrisguest75.github.io/pages_example/</link>
+    <link>https://blog.chrisguest.dev/</link>
     <description>Recent content on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 31 Oct 2021 20:11:05 +0000</lastBuildDate><atom:link href="https://chrisguest75.github.io/pages_example/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 Oct 2021 20:11:05 +0000</lastBuildDate><atom:link href="https://blog.chrisguest.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Spaceballs Dancer</title>
-      <link>https://chrisguest75.github.io/pages_example/blog/dancer/</link>
+      <link>https://blog.chrisguest.dev/blog/dancer/</link>
       <pubDate>Sun, 31 Oct 2021 20:11:05 +0000</pubDate>
       
-      <guid>https://chrisguest75.github.io/pages_example/blog/dancer/</guid>
+      <guid>https://blog.chrisguest.dev/blog/dancer/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Examples</title>
-      <link>https://chrisguest75.github.io/pages_example/examples/</link>
+      <link>https://blog.chrisguest.dev/examples/</link>
       <pubDate>Sun, 31 Oct 2021 19:33:21 +0000</pubDate>
       
-      <guid>https://chrisguest75.github.io/pages_example/examples/</guid>
+      <guid>https://blog.chrisguest.dev/examples/</guid>
       <description>Github-of-Life 
 A simple game-of-life click image
 Q*Berted 
@@ -38,10 +38,10 @@ Homage to old Spaceballs demo click image</description>
     
     <item>
       <title>Perpetual Qberted Grid</title>
-      <link>https://chrisguest75.github.io/pages_example/blog/qberted/</link>
+      <link>https://blog.chrisguest.dev/blog/qberted/</link>
       <pubDate>Sun, 31 Oct 2021 16:22:38 +0000</pubDate>
       
-      <guid>https://chrisguest75.github.io/pages_example/blog/qberted/</guid>
+      <guid>https://blog.chrisguest.dev/blog/qberted/</guid>
       <description>Retro gamers must all know about Q*Bert an early isometric grid game. I started out trying to create the same grid effect as a background, but with a perpetual falling of the stacks. It turns out there were some little tricks I had to consider along the way.
 QBerted
 With an effect like this we want to reduce the amount of overdraw. If the stacks were full size we&amp;rsquo;d have to draw each stack from the top to the bottom of the screen.</description>
@@ -49,20 +49,20 @@ With an effect like this we want to reduce the amount of overdraw. If the stacks
     
     <item>
       <title>Github of Life</title>
-      <link>https://chrisguest75.github.io/pages_example/blog/github-of-life/</link>
+      <link>https://blog.chrisguest.dev/blog/github-of-life/</link>
       <pubDate>Sun, 31 Oct 2021 16:08:35 +0000</pubDate>
       
-      <guid>https://chrisguest75.github.io/pages_example/blog/github-of-life/</guid>
+      <guid>https://blog.chrisguest.dev/blog/github-of-life/</guid>
       <description>Yesterday I published the repo for github-of-life. It consists of a simple Typescript application and pipeline to deploy it. The code is a simple implementation of Conway&amp;rsquo;s Game of Life ref. Using simple rules to control a cellular grid to create patterns that either life forever or become extinct. Sometimes you may be left with a set of still or osciallating life forms.
 I wrote it as part preparation for the pairing interview tests that we use at Trint.</description>
     </item>
     
     <item>
       <title>Personal</title>
-      <link>https://chrisguest75.github.io/pages_example/personal/</link>
+      <link>https://blog.chrisguest.dev/personal/</link>
       <pubDate>Sun, 31 Oct 2021 15:34:51 +0000</pubDate>
       
-      <guid>https://chrisguest75.github.io/pages_example/personal/</guid>
+      <guid>https://blog.chrisguest.dev/personal/</guid>
       <description>Currently working at trint.com as a lead engineer.
 Held various different positions at different companies from; Sophos, Microsoft, BT, Ericsson and Conde Nast.
 Lived in various places around the UK from the Black Country, Milton Keynes, Colchester, Canterbury, Leamington Spa, Ipswich and now Reading.
@@ -71,10 +71,10 @@ A jack of all trades and master of none. Have worked with 68K, x86, C, C++, C#, 
     
     <item>
       <title>First past the post</title>
-      <link>https://chrisguest75.github.io/pages_example/blog/my-first-post/</link>
+      <link>https://blog.chrisguest.dev/blog/my-first-post/</link>
       <pubDate>Sun, 31 Oct 2021 13:24:31 +0000</pubDate>
       
-      <guid>https://chrisguest75.github.io/pages_example/blog/my-first-post/</guid>
+      <guid>https://blog.chrisguest.dev/blog/my-first-post/</guid>
       <description>Recently I&amp;rsquo;ve been publishing a lot of example code on Github. I use the examples for reference as cheatsheet like documentation. They&amp;rsquo;re also useful foundations to build on when I&amp;rsquo;m trying out new ideas.
 Whether working with Typescript, Docker, Bash, Terraform or Linux I usually try to create small repeatable Proofs of Concept that I can refer back to when working in similar areas. Doing this helps me play with the features, understand the technology to a greater depth and lets me have a simplified point of reference for future work.</description>
     </item>

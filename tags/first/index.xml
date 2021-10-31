@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>first on Blog</title>
-    <link>https://chrisguest75.github.io/pages_example/tags/first/</link>
+    <link>https://blog.chrisguest.dev/tags/first/</link>
     <description>Recent content in first on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 31 Oct 2021 13:24:31 +0000</lastBuildDate><atom:link href="https://chrisguest75.github.io/pages_example/tags/first/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 Oct 2021 13:24:31 +0000</lastBuildDate><atom:link href="https://blog.chrisguest.dev/tags/first/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First past the post</title>
-      <link>https://chrisguest75.github.io/pages_example/blog/my-first-post/</link>
+      <link>https://blog.chrisguest.dev/blog/my-first-post/</link>
       <pubDate>Sun, 31 Oct 2021 13:24:31 +0000</pubDate>
       
-      <guid>https://chrisguest75.github.io/pages_example/blog/my-first-post/</guid>
+      <guid>https://blog.chrisguest.dev/blog/my-first-post/</guid>
       <description>Recently I&amp;rsquo;ve been publishing a lot of example code on Github. I use the examples for reference as cheatsheet like documentation. They&amp;rsquo;re also useful foundations to build on when I&amp;rsquo;m trying out new ideas.
 Whether working with Typescript, Docker, Bash, Terraform or Linux I usually try to create small repeatable Proofs of Concept that I can refer back to when working in similar areas. Doing this helps me play with the features, understand the technology to a greater depth and lets me have a simplified point of reference for future work.</description>
     </item>
