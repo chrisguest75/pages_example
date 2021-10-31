@@ -13,3 +13,6 @@ git checkout head -- README.md
 git checkout head -- CNAME
 ```
 
+# Resources
+* https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages
+* https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/troubleshooting-custom-domains-and-github-pages
