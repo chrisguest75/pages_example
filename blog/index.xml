@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on My New Hugo Site</title>
+    <link>http://example.org/blog/</link>
+    <description>Recent content in Blogs on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 31 Oct 2021 20:11:05 +0000</lastBuildDate><atom:link href="http://example.org/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spaceballs Dancer</title>
+      <link>http://example.org/blog/dancer/</link>
+      <pubDate>Sun, 31 Oct 2021 20:11:05 +0000</pubDate>
+      
+      <guid>http://example.org/blog/dancer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Perpetual Qberted Grid</title>
+      <link>http://example.org/blog/qberted/</link>
+      <pubDate>Sun, 31 Oct 2021 16:22:38 +0000</pubDate>
+      
+      <guid>http://example.org/blog/qberted/</guid>
+      <description>Retro gamers must all know about Q*Bert an early isometric grid game. I started out trying to create the same grid effect as a background, but with a perpetual falling of the stacks. It turns out there were some little tricks I had to consider along the way.
+QBerted
+With an effect like this we want to reduce the amount of overdraw. If the stacks were full size we&amp;rsquo;d have to draw each stack from the top to the bottom of the screen.</description>
+    </item>
+    
+    <item>
+      <title>Github of Life</title>
+      <link>http://example.org/blog/github-of-life/</link>
+      <pubDate>Sun, 31 Oct 2021 16:08:35 +0000</pubDate>
+      
+      <guid>http://example.org/blog/github-of-life/</guid>
+      <description>Yesterday I published the repo for github-of-life. It consists of a simple Typescript application and pipeline to deploy it. The code is a simple implementation of Conway&amp;rsquo;s Game of Life ref. Using simple rules to control a cellular grid to create patterns that either life forever or become extinct. Sometimes you may be left with a set of still or osciallating life forms.
+I wrote it as part preparation for the pairing interview tests that we use at Trint.</description>
+    </item>
+    
+    <item>
+      <title>First past the post</title>
+      <link>http://example.org/blog/my-first-post/</link>
+      <pubDate>Sun, 31 Oct 2021 13:24:31 +0000</pubDate>
+      
+      <guid>http://example.org/blog/my-first-post/</guid>
+      <description>Recently I&amp;rsquo;ve been publishing a lot of example code on Github. I use the examples for reference as cheatsheet like documentation. They&amp;rsquo;re also useful foundations to build on when I&amp;rsquo;m trying out new ideas.
+Whether working with Typescript, Docker, Bash, Terraform or Linux I usually try to create small repeatable Proofs of Concept that I can refer back to when working in similar areas. Doing this helps me play with the features, understand the technology to a greater depth and lets me have a simplified point of reference for future work.</description>
+    </item>
+    
+  </channel>
+</rss>
