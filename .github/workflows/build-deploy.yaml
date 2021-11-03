@@ -1,0 +1,39 @@
+name: Publish blog
+
+on:
+  push:
+    branches: 
+      - 'test'
+      - '!main'   # excludes main
+    paths:
+      - '**'
+      - '.github/workflows/build-deploy.yaml'
+
+  pull_request:
+    branches:  
+      - 'test'
+      - '!main'   # excludes main
+    paths:
+      - '**'
+      - '.github/workflows/build-deploy.yaml'
+
+jobs:
+  build-test:
+    name: "Build Blog"  
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Create commits
+      run: |
+        git config user.name 'Github Bot'
+        git config user.email 'github@bot.com'
+        date +%s > report.txt
+        git commit -am "Modify tracked file during workflow"
+        date +%s > new-report.txt
+        git add -A
+        git commit -m "Add untracked file during workflow"
+    - name: Uncommitted change
+      run: date +%s > report.txt
+    - name: Create Pull Request
+      uses: peter-evans/create-pull-request@v3
