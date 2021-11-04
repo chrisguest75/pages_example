@@ -33,3 +33,15 @@ git checkout head -- CNAME
 * https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages
 * https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/troubleshooting-custom-domains-and-github-pages
 
+https://project-awesome.org/sdras/awesome-actions
+
+https://www.weave.works/blog/how-to-create-gitops-pipelines-with-github-actions-and-weave-cloud
+
+https://rusyasoft.github.io/github,%20gitops,%20devops,%20argocd/2020/11/15/how-to-gitops-with-github-actions/
+
+
+https://zwischenzugs.com/2021/07/31/a-hello-world-gitops-example-walkthrough/
+
+https://blog.marcnuri.com/triggering-github-actions-across-different-repositories
+
+https://github.com/marketplace/actions/create-pull-request

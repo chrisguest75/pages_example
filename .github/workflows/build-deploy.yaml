@@ -1,0 +1,44 @@
+name: Publish blog
+
+on:
+  push:
+    branches: 
+      - 'test'
+      - '!main'   # excludes main
+    paths:
+      - '**'
+      - '.github/workflows/build-deploy.yaml'
+
+  pull_request:
+    branches:  
+      - 'test'
+      - '!main'   # excludes main
+    paths:
+      - '**'
+      - '.github/workflows/build-deploy.yaml'
+
+jobs:
+  build-test:
+    name: "Build Blog"  
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Set outputs (shortsha)
+      id: vars
+      run: echo "::set-output name=sha_short::$(git rev-parse --short HEAD)"
+
+    - name: Create commits
+      run: |
+        echo "Commit files"
+        git checkout -b work_${{ steps.vars.outputs.sha_short }}
+        git config user.name "GitHub Actions Bot"
+        git config user.email "<>"        
+        date +%s > report.txt
+        git add -A
+        git commit -m "Add untracked file during workflow"
+    #- name: Uncommitted change
+    #  run: date +%s > report.txt
+    - name: Create Pull Request
+      uses: peter-evans/create-pull-request@v3
