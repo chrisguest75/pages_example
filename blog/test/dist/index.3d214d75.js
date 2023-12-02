@@ -692,18 +692,27 @@ function start_credits(file) {
     stop_music();
     play_music(file);
 }
+function updateCameraPosition(object, camera) {
+    // Assuming the object is a box, calculate its bounding sphere radius
+    const boundingSphereRadius = Math.sqrt(3); // For a 2x2x2 box, the diagonal is sqrt(2^2 + 2^2 + 2^2)
+    // Calculate the distance from the object; factor depends on the camera FOV
+    const fovInRadians = camera.fov * Math.PI / 180;
+    const distance = Math.abs(boundingSphereRadius / Math.sin(fovInRadians / 2));
+    // Set the camera position
+    camera.position.z = distance;
+    // Look at the center of the object
+    const boxCenter = new _three.Vector3();
+    object.getWorldPosition(boxCenter);
+    camera.lookAt(boxCenter);
+    // Update the camera
+    camera.updateProjectionMatrix();
+}
 function onWindowResize() {
     const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
     const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
-    if (vw > vh) {
-        camera.aspect = window.innerWidth / window.innerHeight;
-        camera.updateProjectionMatrix();
-        renderer.setSize(window.innerWidth, window.innerHeight);
-    } else {
-        camera.aspect = window.innerHeight / window.innerWidth;
-        camera.updateProjectionMatrix();
-        renderer.setSize(window.innerWidth, window.innerHeight);
-    }
+    camera.aspect = window.innerWidth / window.innerHeight;
+    updateCameraPosition(mesh, camera);
+    renderer.setSize(window.innerWidth, window.innerHeight);
 }
 window.addEventListener("resize", onWindowResize, false);
 setInterval(update, 60);

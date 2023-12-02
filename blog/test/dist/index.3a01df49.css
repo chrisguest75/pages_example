@@ -15,11 +15,9 @@ img:hover {
 }
 
 .title {
-  -webkit-text-stroke: .25rem #44444450;
   color: #fff;
   letter-spacing: .15rem;
   text-align: center;
-  text-shadow: 0 4px 4px #00000040;
   padding-bottom: 2rem;
   font-family: Rubik Mono One, sans-serif;
 }
