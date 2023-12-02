@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Guest;Chris;;Mr.;
+FN:Chris Guest
+ORG:Trint
+TITLE:Lead Engineer
+TEL;TYPE=WORK,VOICE:
+ADR;TYPE=WORK:;;1 Street;Anytown;Reading;RG;UK
+EMAIL: 
+END:VCARD

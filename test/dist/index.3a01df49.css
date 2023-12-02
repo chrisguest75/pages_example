@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  background: linear-gradient(#303038 0%, #303838 50%, #101818 50px, #101018 100%);
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+img:hover {
+  animation: .8s infinite shake;
+}
+
+.title {
+  -webkit-text-stroke: .25rem #44444450;
+  color: #fff;
+  letter-spacing: .15rem;
+  text-align: center;
+  text-shadow: 0 4px 4px #00000040;
+  padding-bottom: 2rem;
+  font-family: Rubik Mono One, sans-serif;
+}
+
+.plasma {
+  color: #0000;
+  background: linear-gradient(217deg, #f00c, #f000 70.71%), linear-gradient(127deg, #0f0c, #0f00 40.71%), linear-gradient(336deg, #00fc, #00f0 70.71%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px)rotate(0)scale(1);
+  }
+
+  10% {
+    transform: translate(-1px, -2px)rotate(-1deg)scale(1.1);
+  }
+
+  20% {
+    transform: translate(-3px)rotate(1deg)scale(1);
+  }
+
+  30% {
+    transform: translate(3px, 2px)rotate(0)scale(1.1);
+  }
+
+  40% {
+    transform: translate(1px, -1px)rotate(1deg)scale(1);
+  }
+
+  50% {
+    transform: translate(-1px, 2px)rotate(-1deg)scale(1);
+  }
+
+  60% {
+    transform: translate(-3px, 1px)rotate(0)scale(1.1);
+  }
+
+  70% {
+    transform: translate(3px, 1px)rotate(-1deg)scale(1);
+  }
+
+  80% {
+    transform: translate(-1px, -1px)rotate(1deg)scale(1.1);
+  }
+
+  90% {
+    transform: translate(1px, 2px)rotate(0)scale(1);
+  }
+
+  100% {
+    transform: translate(1px, -2px)rotate(-1deg)scale(1.1);
+  }
+}
+
+@media screen and (orientation: portrait) {
+  #textoverlay {
+    z-index: 2;
+    word-break: break-all;
+    text-shadow: 0 5.36px 5.896px #000;
+    color: #5ae450;
+    -webkit-user-select: none;
+    user-select: none;
+    background-color: #00000040;
+    border-radius: 10px;
+    width: 51vw;
+    padding: 1vw;
+    font-family: Rubik Mono One, sans-serif;
+    font-size: 3vw;
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    overflow: hidden;
+    transform: translate(0%, -50%);
+  }
+}
+
+@media screen and (orientation: landscape) {
+  #textoverlay {
+    z-index: 2;
+    word-break: break-all;
+    text-shadow: 0 5.36px 5.896px #000;
+    color: #fff;
+    -webkit-user-select: none;
+    user-select: none;
+    background-color: #00000040;
+    border-radius: 10px;
+    width: 51vw;
+    padding: 1vw;
+    font-family: Rubik Mono One, sans-serif;
+    font-size: 3vw;
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    overflow: hidden;
+    transform: translate(0%, -50%);
+  }
+}
+
+@media (height >= 301px) and (width >= 700px) and (orientation: landscape) {
+  #textoverlay {
+    z-index: 2;
+    word-break: break-all;
+    text-shadow: 0 5.36px 5.896px #000;
+    color: #2f4ff1;
+    -webkit-user-select: none;
+    user-select: none;
+    background-color: #00000040;
+    border-radius: 10px;
+    width: 87vh;
+    padding: 1vw;
+    font-family: Rubik Mono One, sans-serif;
+    font-size: 5vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media (height <= 300px) and (orientation: landscape) {
+  #textoverlay {
+    z-index: 2;
+    word-break: break-all;
+    text-shadow: 0 5.36px 5.896px #000;
+    color: #ecf935;
+    -webkit-user-select: none;
+    user-select: none;
+    background-color: #00000040;
+    border-radius: 10px;
+    width: 87vh;
+    padding: 1vw;
+    font-family: Rubik Mono One, sans-serif;
+    font-size: 5vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.cloud-hosted {
+  color: #fff;
+  letter-spacing: -1px;
+  padding: 10px;
+  font-family: Rubik, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.cloud-hosted table tr td {
+  vertical-align: middle;
+}
+
+.cloud-hosted table img {
+  opacity: 1;
+  max-height: auto;
+}
+
+.icon {
+  width: 5vw;
+  max-width: 40px;
+}
+
+.icon:hover {
+  animation: .8s infinite shake;
+}
+
+.webgl {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/*# sourceMappingURL=index.3a01df49.css.map */
